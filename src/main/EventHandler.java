@@ -156,7 +156,7 @@ public class EventHandler {
 			
 			// Teleport to city
 			else if(teleportActive && hit(0,21,11,"up")  && gp.ui.currentObjective == 3) {
-				playCutscene("/cutscenes/cutscene2.gif", 22500); // 22500
+				playCutscene("/res/cutscenes/cutscene2.gif", 22500); // 22500
 				teleport(2,4,33, false);
 				updateObjective(2,4,33,3,4);
 			}
@@ -238,7 +238,7 @@ public class EventHandler {
 	    			teleport(4,18.5,8.5,false);
 	    			homelessmanCanComplete = false;
 					updateObjective(3,6,16,8,9);
-	    			playCutscene("/cutscenes/cutscene3.gif", 24000); // 24000
+	    			playCutscene("/res/cutscenes/cutscene3.gif", 24000); // 24000
 		    		eventMaster.startDialogue(eventMaster, 17);
 		    		busDialogueComplete = true;	
 				}
@@ -269,7 +269,7 @@ public class EventHandler {
 					eventRect[6][13][20].eventDone = true;
 					eventRect[6][14][20].eventDone = true;
 					teleport(8,(int)(3.5),1,false);
-					playCutscene("/cutscenes/cutscene5.gif", 28500, () -> { // 28500
+					playCutscene("/res/cutscenes/cutscene5.gif", 28500, () -> { // 28500
 						homelessmanCanComplete = false;
 						busComplete = false;
 						startChoiceDialogue("Help", "Walk away", false);
@@ -578,7 +578,7 @@ public class EventHandler {
 	                // This code will run after the dialogue set is complete
 	                busComplete = false;
 	                teleport(6, 12, 16, false);
-	                playCutscene("/cutscenes/cutscene4.gif", 24000);
+	                playCutscene("/res/cutscenes/cutscene4.gif", 24000);
 	                gp.ui.choiceActive = false;
 	                gp.ui.currentDialogue = "";
 	                gp.ui.charIndex = 0;
@@ -589,7 +589,7 @@ public class EventHandler {
 	                // This code will run after the dialogue set is complete
 	                busComplete = false;
 	                teleport(6, 12, 16, false);
-	                playCutscene("/cutscenes/cutscene4.gif", 30000);
+	                playCutscene("/res/cutscenes/cutscene4.gif", 30000);
 	                gp.ui.choiceActive = false;
 	                gp.ui.currentDialogue = "";
 	                gp.ui.charIndex = 0;

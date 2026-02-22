@@ -13,7 +13,7 @@ public class Sound {
 
 	public Sound() {
 
-		soundURL[0] = getClass().getResource("/sound/musictest.wav");
+		soundURL[0] = getClass().getResource("/res/sound/musictest.wav");
 	}
 
 	public void setFile(int i) {

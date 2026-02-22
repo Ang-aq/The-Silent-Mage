@@ -133,7 +133,7 @@ public class CutsceneManager {
     		
     		if(cutsceneDialogueComplete == true) {
     			
-    			gp.eHandler.playCutscene("/cutscenes/cutscene6.gif", 70000, () ->{
+    			gp.eHandler.playCutscene("/res/cutscenes/cutscene6.gif", 70000, () ->{
         			
     				gp.eHandler.teleport(7, 2, 2, false);
         			scenePhase++;
