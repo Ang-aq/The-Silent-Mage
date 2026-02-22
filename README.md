@@ -27,4 +27,6 @@ Created in Java using Eclipse, **The Silent Mage** explores making ethical choic
 
 **Language:** Java
 
-**Artwork:** Aesprite and Piskel (Pixel Art)
+**Artwork & Animations:** Aesprite, Piskel, and Blender
+
+### ❤️ Huge thank you to **Sravya M and Essam S** for creating all artwork and animations!
