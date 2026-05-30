@@ -2,8 +2,6 @@
 
 # 🧙 The Silent Mage 
 
-A video game developed for FBLA's Computer Game and Simulation Programming 2024-2025 Event!
-
 ## 🏰 About The Silent Mage
 
 Created in Java using Eclipse, **The Silent Mage** explores making ethical choices and their outcomes. You play as a character born in magical world without magic, causing you to be ostracized from a community. Suddenly, you're admitted to Magical School where you embark on adventure, make new friends, and ethical decisions. Solve puzzles, endures trials, and defeat an enemy in a final battle!
